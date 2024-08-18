@@ -10,3 +10,23 @@ Possui um layout enxuto, objetivo e responsivo.
 
 ## Acesse o projeto aqui
 https://rafafield.github.io/desafio-alura/desafio-Alura.html
+
+## Linguagens utilizadas
+Para o desenvolvimento do projeto foram utilizadas as linguagens:
+Front-end: HTML, JavaScript e CSS. 
+
+## Funcionalidade da Aplicação Web
+° Campo de digitar texto: texto digitado para criptografar ou descriptografar;
+° Campo de texto processado: texto processado (criptografado ou descriptografado);
+° Botão Criptografar: botão para criptografar o texto digitado/colado;
+° Botão Descriptografar: botão para descriptografar o texto digitado/colado;
+° Botão Colar: botão para colar o texto armazenado na área de transferência;
+° Botão Limpar: limpa o campo do texto processado.
+
+## Instalação
+1. Clone o repositório: git clone https://github.com/Rafafield/desafio-alura
+2. Abra o diretório do projeto: cd desafio-alura
+3. Abra o arquivo desafio-Alura.html no seu navegador web.
+
+## Licença
+Este projeto está licenciado sob a Licença MIT.
