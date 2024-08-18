@@ -7,3 +7,6 @@ Possui um layout enxuto, objetivo e responsivo.
 
 ## Figma do projeto
 ![screen-2](https://github.com/user-attachments/assets/52e26632-840a-4c57-9d1a-17ea518b6e43)
+
+## Acesse o projeto aqui
+https://rafafield.github.io/desafio-alura/desafio-Alura.html
