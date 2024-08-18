@@ -24,7 +24,7 @@ Front-end: HTML, JavaScript e CSS.
 ° Botão Limpar: limpa o campo do texto processado.
 
 ## Instalação
-1. Clone o repositório: >git clone https://github.com/Rafafield/desafio-alura
+1. Clone o repositório: > git clone https://github.com/Rafafield/desafio-alura
 2. Abra o diretório do projeto: cd desafio-alura
 3. Abra o arquivo desafio-Alura.html no seu navegador web.
 
