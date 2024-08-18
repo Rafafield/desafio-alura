@@ -1,0 +1,119 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 00vh;
+    margin: 0;
+    padding: 0;
+}
+
+#securityBadge {
+    text-align: right; /* Centraliza o conteúdo dentro do contêiner */
+    margin-bottom: 30px; /* Espaço abaixo do brasão */
+}
+
+#securityBadge img {
+    width: 220px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+h2, h3, h4 {
+    color: #e0e0e0;
+}
+
+h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #e0e0e0;
+    margin-top: -60px; /* Ajuste a margem superior conforme necessário */
+    margin-bottom: 0px; /* Ajuste a margem inferior se desejar */
+    font-size: 3rem;
+   }
+
+
+textarea {
+    background-color: #333;
+    border: 2px solid #4caf50;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+    font-size: 1rem;
+}
+
+input[type="button"] {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #388e3c;
+    box-shadow: 0 0 10px #4caf50;
+}
+
+input[type="button"]:active {
+    transform: scale(0.95);
+    box-shadow: 0 5px #666;
+}
+
+textarea.invalid {
+    border: 2px solid red;
+}
+
+#lockIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 50px;
+    color: #4caf50;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#lockIcon.visible {
+    opacity: 1;
+}
+
+#lockIcon.hidden {
+    display: none;
+}
+
+.icon {
+    background-image: url('icone-de-atencao.png');
+    background-size: contain;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+#no-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+#no-input img {
+    width: 100px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#no-input p {
+    color: #9e9e9e;
+    font-size: 1rem;
+}
