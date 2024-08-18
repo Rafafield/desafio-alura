@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador de Mensagem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/brasao-seguranca.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="securityBadge">
+        <img src="images/brasao-seguranca.png" alt="Brasão de Segurança">
+    </div>
+
+    <h1>Vamos começar?</h1>
+
+    <h2>Digite seu texto</h2>
+    <textarea id="inputText" rows="4" cols="50" placeholder="Digite seu texto aqui"></textarea>
+
+    <br>
+    <div>
+        <input type="button" id="btnEncrypt" value="Criptografar">
+        <input type="button" id="btnDecrypt" value="Descriptografar">
+        <input type="button" id="btnClear" value="Limpar">
+        <input type="button" id="btnPaste" value="Colar">
+    </div>
+
+    <h2>Resultado</h2>
+    <textarea id="outputText" rows="4" cols="50" placeholder="Nenhuma mensagem encontrada. Digite um texto que você queira criptografar ou descriptografar" readonly></textarea>
+    <br>
+
+    
+    <input type="button" id="btnCopy" value="Copiar">
+   
+    <br>
+
+    <div id="error-message" style="display:none; color:red;">Você digitou letras maiúsculas, acentos ou caracteres especiais. Por favor, revise e escreva novamente.</div>
+
+    <h3><span class="icon"></span> Apenas letras minúsculas, sem acentos e sem caracteres especiais.</h3>
+    <h4>Esta ferramenta foi desenvolvida por Raphael Maltezo.</h4>
+    <script src="app.js" defer></script>
+</body>
+
+</html>
