@@ -6,20 +6,32 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 00vh;
     margin: 0;
     padding: 0;
 }
 
-h1, h2, h3, h4 {
+#securityBadge {
+    text-align: right; /* Centraliza o conteúdo dentro do contêiner */
+    margin-bottom: 30px; /* Espaço abaixo do brasão */
+}
+
+#securityBadge img {
+    width: 220px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+h2, h3, h4 {
     color: #e0e0e0;
 }
 
 h1 {
+    font-family: 'IBM Plex Mono', monospace;
     color: #e0e0e0;
     margin-top: -60px; /* Ajuste a margem superior conforme necessário */
     margin-bottom: 0px; /* Ajuste a margem inferior se desejar */
-}
+    font-size: 3rem;
+   }
 
 
 textarea {
@@ -28,7 +40,8 @@ textarea {
     color: #ffffff;
     padding: 10px;
     border-radius: 5px;
-    width: 90%;
+    width: 100%;
+    max-width: 600px;
     font-size: 1rem;
 }
 
@@ -84,4 +97,23 @@ textarea.invalid {
     height: 24px;
     vertical-align: middle;
     margin-right: 10px;
+}
+#no-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+#no-input img {
+    width: 100px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#no-input p {
+    color: #9e9e9e;
+    font-size: 1rem;
 }
