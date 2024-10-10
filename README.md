@@ -10,7 +10,7 @@ Possui um layout enxuto, objetivo e responsivo.
 
 >[!IMPORTANT]
 >## Acesse o projeto aqui
->https://rafafield.github.io/desafio-alura/desafio-Alura.html
+>[https://rafafield.github.io/desafio-alura/desafio-Alura.html](https://rafafield.github.io/desafio-alura/)
 
 ## Linguagens utilizadas
 Para o desenvolvimento do projeto foram utilizadas as linguagens:
