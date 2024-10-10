@@ -26,7 +26,7 @@ Front-end: `HTML, JavaScript e CSS.`
 
 > [!TIP]
 >## Instalação
->1. Clone o repositório: `git clone https://github.com/Rafafield/desafio-alura](https://rafafield.github.io/desafio-alura/`
+>1. Clone o repositório: `git clone https://rafafield.github.io/desafio-alura/`
 >2. Abra o diretório do projeto: `cd desafio-alura`
 >3. Abra o arquivo `desafio-Alura.html` no seu navegador web.
 
